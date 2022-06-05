@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap");
+
+html {
+  margin: 0 100px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.2rem;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  width: 400px;
+  height: 25px;
+  margin-left: 100px;
+  border: none;
+  background-color: #ebebeb;
+  border-radius: 2px;
+  padding: 2px 15px;
+}
+
+span {
+  color: #ef522e;
+  transform: rotate(45deg);
+}
+
+.news {
+  border: none;
+  width: 150px;
+  height: 30px;
+  margin-left: 55px;
+  color: white;
+  background: #ef522e;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.news:hover {
+  background: #c83717;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.album-block {
+  display: flex;
+  width: 350px;
+  height: 350px;
+  background-color: #ef522e;
+  background-image: url(./imagens/panic.jpg);
+  background-size: cover;
+  background-position: 25%;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.album-block:hover {
+  filter: brightness(80%);
+  border-radius: 0px;
+}
+
+.album-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  overflow: hidden;
+}
+
+.album-stats {
+  display: flex;
+  gap: 30px;
+  margin-top: 25px;
+}
+
+.album-stats p {
+  color: gray;
+  margin-top: -15px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.listen-now {
+  border: none;
+  width: 150px;
+  height: 30px;
+  color: white;
+  background: #ef522e;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 15px;
+}
+
+.listen-now:hover {
+  background: #c83717;
+}
+
+.album-content p {
+  color: gray;
+}
+
+.album-container img {
+  max-width: 150px;
+}
+
+.second .album-container h3 {
+  margin-top: 8px;
+}
+
+.second .album-container p {
+  margin-top: -10px;
+}
+
+.second {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.second p {
+  font-size: 10px;
+}
+
+.block {
+  width: 200px;
+  height: 200px;
+  background-color: #c83717;
+  background-image: url(./imagens/pray.jpg);
+  background-size: cover;
+  border-radius: 4px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.block:hover {
+  filter: brightness(80%);
+  border-radius: 0px;
+}
+
+.block-death {
+  width: 200px;
+  height: 200px;
+  background-color: #c83717;
+  background-image: url(./imagens/death.jpg);
+  background-size: cover;
+  border-radius: 4px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.block-death:hover {
+  filter: brightness(80%);
+  border-radius: 0px;
+}
+
+.block-too {
+  width: 200px;
+  height: 200px;
+  background-color: #c83717;
+  background-image: url(./imagens/Too.jpg);
+  background-size: cover;
+  border-radius: 4px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.block-too:hover {
+  filter: brightness(80%);
+  border-radius: 0px;
+}
+
+.album-container h3 {
+  font-size: 15px;
+}
+
+.album-container p {
+  color: gray;
+}
+
+.side-button {
+  border: none;
+  width: 150px;
+  height: 30px;
+  color: white;
+  background: #ef522e;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.side-button:hover {
+  background: #c83717;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+section div ul li {
+  width: 335px;
+  height: 390px;
+  background: #00000054;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.lives {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+}
+
+section {
+  display: block;
+}
+
+.live1 {
+  background-image: url(./imagens/show1.jpg);
+  background-size: cover;
+  background-position: 40%;
+  background-blend-mode: overlay;
+  transition: 0.3s ease;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px;
+}
+
+.live1:hover {
+  background-position: 45%;
+  border-radius: 0px;
+  box-shadow: 0px 4px 15px;
+}
+
+.live2 {
+  background-image: url(./imagens/show2.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-blend-mode: overlay;
+  transition: 0.3s ease;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px;
+}
+
+.live2:hover {
+  background-position: 45%;
+  border-radius: 0px;
+  box-shadow: 0px 4px 15px;
+}
+
+.live3 {
+  background-image: url(./imagens/show3.jpg);
+  background-size: cover;
+  background-position: 45%;
+  background-blend-mode: overlay;
+  transition: 0.3s ease;
+  border-radius: 5px;
+  box-shadow: 0px 0px 0px;
+}
+
+.live3:hover {
+  background-position: 50%;
+  border-radius: 0px;
+  box-shadow: 0px 4px 15px;
+}
+
+section div ul li h3 {
+  color: white;
+  padding: 0 20px;
+  font-weight: 500;
+}
+
+section div ul li p {
+  color: white;
+  padding: 0 20px;
+  margin-top: -15px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  list-style: none;
+}
+
+footer nav ul li {
+  list-style: none;
+  transition: 0.3s ease;
+}
+footer ul {
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}
+
+footer ul li:hover {
+  color: #ef522e;
+}
+
+@media screen and (max-width: 1225px) {
+  .lives {
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 1072px) {
+  .second {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .side {
+    align-items: center;
+    text-align: center;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .second div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .second h3 {
+    display: none;
+  }
+
+  .block {
+    background-size: cover;
+  }
+
+  .side {
+    margin: 0;
+  }
+
+  .live-show div ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+
+  .live-show div ul li {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .album-section {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .album-section .album-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .album-section .album-block {
+    width: 100%;
+  }
+
+  header input {
+    display: none;
+  }
+
+  .album-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  html {
+    margin: 0;
+  }
+
+  footer nav {
+    display: none;
+  }
+}
